@@ -3,3 +3,11 @@ install:
 - mvn install
 jdk:
 - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: Apl+7Ap5xPF0D1ciHSQqfrhRpjDlwm/hUlKrMqqOtNAE5OxJI50AOeZ2cbcGuJx3uf+3OgltISeK2E4V3hL7Ja0T+bAIVVcfthGBct3CTqaN2SPr2lReFhrkmvd0xH4EFcK6O1RGmTyxzNS19AczE34yR99ppjAhaiYq/KEAVBfSC+H8C9OG2sUSnPJocr97ogqbCrhvcRp+wTaKse9QVFj9S/CUC4rUlEtXIuoHHW6a+nkuZ769R1n5SZwMDhO1j/1y/Xr821UI8K+RnVOf4XgVy0CSkN7tq0o6SwdPppf4g4IzeqWVVGrtZrGo6SC0VklBG9p+ek2W/vk2qGVNjV4CGyN2sxR1Axqx4HFgoyj2KJ93UbxjAPg1d1ZeaCkD1cCmP8F9E0ZmlcwPgy+kkkw0+f1b3rCQGdkl8zThGaCsSl9kVORz4gjs8ErrF4LUfzO2rxPqrifT/rdYNz5/DR1RFtk9Ubh/x0M4TU7JnKzZaOpxvGQHsJg/B6MTlU2wszAMA9S5KRSVLfhyRsdQW3HiXfXrnaPyeTXU5qxlsnM2aws4sdReri03zgp90eyuOrK5QD/duXRZS8AGN0/LLRXB+UquEI6AClVXpMPlg2j21lHB/+eGbI6P5cDduijSBZrU+MzBQBdVfLOAS7L9RL8pYHCNkZqLvJCSa4QfUEI=
+  app: linhui_addressbook
+  on:
+    repo: LLLZhao/addressbook
+    branch: todo_tasks
