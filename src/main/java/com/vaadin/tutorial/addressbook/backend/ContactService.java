@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  * simulating real world DAO. Typically these something that the Java EE
  * or Spring backend services provide.
  */
-// Backend service class. This is just a typical Java backend implementation
+// Backend service class. This is jusst a typical Java backend implementation
 // class and nothing Vaaadin specific.
 public class ContactService {
 
