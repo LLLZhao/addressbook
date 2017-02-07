@@ -12,7 +12,7 @@ import java.util.logging.Logger;
  * or Spring backend services provide.
  */
 // Backend service class. This is just a typical Java backend implementation
-// class and nothing Vaadin specific.
+// class and nothing Vaaadin specific.
 public class ContactService {
 
     // Create dummy data by randomly combining first and last names

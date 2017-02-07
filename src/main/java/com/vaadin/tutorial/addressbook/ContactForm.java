@@ -30,6 +30,10 @@ public class ContactForm extends FormLayout {
     TextField phone = new TextField("Phone");
     TextField email = new TextField("Email");
     DateField birthDate = new DateField("Birth date");
+    TextField task = new TextField("Task");
+    DateField startDate = new DateField("Start date");
+    DateField endDate = new DateField("End date");
+    
 
     Contact contact;
 
@@ -60,7 +64,7 @@ public class ContactForm extends FormLayout {
         HorizontalLayout actions = new HorizontalLayout(save, cancel);
         actions.setSpacing(true);
 
-        addComponents(actions, firstName, lastName, phone, email, birthDate);
+        addComponents(actions, firstName, lastName, phone, email, birthDate, task, startDate, endDate);
     }
 
     /*
